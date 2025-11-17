@@ -78,7 +78,7 @@ def mo_form_quanlyhs():
         subprocess.Popen([sys.executable, r"E:\DoAn_QLHS\QLHS\QuanLyHocSinh.py"])
         root.destroy()  # đóng form hiện tại hoàn toàn
     except Exception as e:
-        messagebox.showerror("Lỗi", f"Không thể mở form tính điểm:\n{e}")
+        messagebox.showerror("Lỗi", f"Không thể mở form quản lý hóc sinh:\n{e}")
 
 
 def DangNhap():
@@ -143,3 +143,4 @@ lbl_footer = tk.Label(
 lbl_footer.pack(side="bottom", pady=15)
 
 root.mainloop()
+
